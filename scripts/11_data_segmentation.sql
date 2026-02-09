@@ -53,7 +53,7 @@ WITH customer_spending AS (
 )
 SELECT
 	customer_segment,
-C	OUNT(customer_key) AS total_customers
+	COUNT(customer_key) AS total_customers
 FROM (
 	SELECT
 	customer_key,
